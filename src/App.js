@@ -9,9 +9,6 @@ import Project from "./pages/Project";
 import Service from "./pages/Service";
 import {Routes, Route} from 'react-router-dom';
 
-
-
-
 function App() {
   return (
     <div className="App">
@@ -25,10 +22,9 @@ function App() {
         <Route path="/service" element={ <Service/>} />
         <Route path="/project" element={ <Project/>} />
         <Route path="/pricing" element={  <Pricing/>} />
-
-
       </Routes>
-
+    
+  
     </div>
   );
 }
