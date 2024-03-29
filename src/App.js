@@ -7,11 +7,14 @@ import Blogsingle from "./pages/Blogsingle";
 import Pricing from "./pages/Pricing";
 import Project from "./pages/Project";
 import Service from "./pages/Service";
+import Socialmedia from "./pages/Socialmedia";
 import {Routes, Route} from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
+      
       <Routes>
         <Route path="/" element={ <Home/>} />
         <Route path="/about" element={  <About/>} />
@@ -22,6 +25,7 @@ function App() {
         <Route path="/service" element={ <Service/>} />
         <Route path="/project" element={ <Project/>} />
         <Route path="/pricing" element={  <Pricing/>} />
+        <Route path="/socialmedia" element={  <Socialmedia/>} />
       </Routes>
     
   

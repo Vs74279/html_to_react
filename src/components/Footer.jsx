@@ -48,7 +48,7 @@ const Footer = () => {
 					<div className="logo mb-4">
 						<h3>Mega<span>kit.</span></h3>
 					</div>
-					<h6><Link to="tel:+23-345-67890" >Support@megakit.com</Link></h6>
+					<h6><Link to="tel:+23-345-67890" >drv74279@.com</Link></h6>
 					<Link to="mailto:support@gmail.com"><span className="text-color h4">+23-456-6588</span></Link>
 				</div>
 			</div>
@@ -68,11 +68,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="col-lg-4 col-md-12 col-sm-12 text-left text-lg-left">
-					<ul className="list-inline footer-socials">
-						<li className="list-inline-item"><Link to="https://www.facebook.com/themefisher"><i className="ti-facebook mr-2"></i>Facebook</Link></li>
-						<li className="list-inline-item"><Link to="https://twitter.com/themefisher"><i className="ti-twitter mr-2"></i>Twitter</Link></li>
-						<li className="list-inline-item"><Link to="https://www.pinterest.com/themefisher/"><i className="ti-linkedin mr-2 "></i>Linkedin</Link></li>
-					</ul>
+					
 				</div>
 			</div>
 		</div>
